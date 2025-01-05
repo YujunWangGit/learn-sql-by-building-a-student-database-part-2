@@ -111,3 +111,5 @@ chmod +x student_info.sh
 ./student_info.sh
 ./student_info.sh
 echo -e "\nAll course names whose first letter is before 'D' in the alphabet:"
+\c students
+psql --username=freecodecamp --dbname=students
