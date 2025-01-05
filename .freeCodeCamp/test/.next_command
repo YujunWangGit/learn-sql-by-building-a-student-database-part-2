@@ -121,3 +121,4 @@ psql --username=freecodecamp --dbname=students
 ./student_info.sh
 ./student_info.sh
 psql --username=freecodecamp --dbname=students
+SELECT student_info.sh students.sql FROM students FULL JOIN majors ON students.major_id = majors.major_id WHERE first_name LIKE '%ri%' OR major LIKE '%ri%'
