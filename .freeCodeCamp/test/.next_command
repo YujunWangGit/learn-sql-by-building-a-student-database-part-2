@@ -115,3 +115,4 @@ echo -e "\nAll course names whose first letter is before 'D' in the alphabet:"
 psql --username=freecodecamp --dbname=students
 ./student_info.sh
 ./student_info.sh
+./student_info.sh
